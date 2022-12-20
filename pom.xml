@@ -5,17 +5,21 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>2.3.4.RELEASE</version>
     </parent>
+
     <groupId>com.example</groupId>
-    <artifactId>SimpleRest</artifactId>
+    <artifactId>simple-rest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SimpleRest</name>
     <description>SimpleRest</description>
+
     <properties>
-        <java.version>17</java.version>
+        <java.version>8</java.version>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
